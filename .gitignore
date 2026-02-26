@@ -1,0 +1,22 @@
+# Секреты и ключи — никогда не коммитить
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+.git-credentials
+.secret
+secrets/
+*.secret
+
+# Временные/служебные папки
+stolen-site-temp/
+
+# Локальные настройки
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
